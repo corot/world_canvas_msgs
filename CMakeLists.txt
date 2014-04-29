@@ -8,14 +8,18 @@ add_message_files(
   FILES
   Annotation.msg
   SemanticMap.msg
+  MapListEntry.msg
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  DeleteMap.srv
+  ListMaps.srv
+  PublishMap.srv
+  RenameMap.srv
+  SaveMap.srv
+)
 
 generate_messages(DEPENDENCIES std_msgs geometry_msgs)
 
