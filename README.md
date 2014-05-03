@@ -1,4 +1,4 @@
-semantic_map_msgs
+world_canvas_msgs
 =================
 
-Messages and services for the semantic maps framework
+Messages and services for the world canvas framework

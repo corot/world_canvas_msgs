@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(semantic_map_msgs)
+project(world_canvas_msgs)
 
 find_package(catkin REQUIRED COMPONENTS std_msgs geometry_msgs std_srvs message_generation)
 
