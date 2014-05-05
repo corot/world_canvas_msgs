@@ -1,12 +1,14 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(world_canvas_msgs)
 
-find_package(catkin REQUIRED COMPONENTS std_msgs geometry_msgs std_srvs message_generation)
+find_package(catkin REQUIRED COMPONENTS std_msgs uuid_msgs geometry_msgs std_srvs message_generation)
 
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
   Annotation.msg
+  Annotations.msg
+  AnnotationData.msg
   SemanticMap.msg
   MapListEntry.msg
 )
@@ -19,8 +21,9 @@ add_service_files(
   PublishMap.srv
   RenameMap.srv
   SaveMap.srv
+  SaveAnnotationsData.srv
 )
 
-generate_messages(DEPENDENCIES std_msgs geometry_msgs)
+generate_messages(DEPENDENCIES std_msgs uuid_msgs geometry_msgs)
 
-catkin_package(CATKIN_DEPENDS std_msgs geometry_msgs std_srvs message_runtime)
+catkin_package(CATKIN_DEPENDS std_msgs uuid_msgs geometry_msgs std_srvs message_runtime)

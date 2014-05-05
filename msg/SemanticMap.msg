@@ -1,6 +1,3 @@
-# Semantic map:
-#  - geometric map id
-#  - a list of annotations
+# Annotations list
 
-string map_id
 Annotation[] annotations
