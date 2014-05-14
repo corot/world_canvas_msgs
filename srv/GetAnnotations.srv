@@ -1,0 +1,16 @@
+# various combinations of these trigger various results
+uuid_msgs/UniqueID world_id
+uuid_msgs/UniqueID[] id
+string[] filter_by_data_types
+string[] filter_by_keyword
+string[] filter_by_some_other_constraint1
+string[] filter_by_some_other_constraint2
+string[] filter_by_some_other_constraint3
+
+----
+
+# What went wrong, if anything
+bool result
+string message
+
+Annotation[] annotations
