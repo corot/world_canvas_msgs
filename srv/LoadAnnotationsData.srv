@@ -4,10 +4,10 @@
 string map_uuid
 uuid_msgs/UniqueID world_id
 
-
-Annotation[] annotations
-AnnotationData[] data 
 ---
 # What went wrong, if anything
 bool result
 string message
+
+Annotation[] annotations
+AnnotationData[] data 
