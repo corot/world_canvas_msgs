@@ -2,4 +2,4 @@
 #  - id   : Object unique id
 #  - data : serialized data
 uuid_msgs/UniqueID id
-uint8 data
+uint8[] data
