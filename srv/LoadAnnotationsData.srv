@@ -1,7 +1,6 @@
-# Request saving currently published annotations, associated to the map identified by map_uuid.
+# Request saving currently published annotations, associated to the map identified by world_id.
 
 # Unique ID of the associated map.
-string map_uuid
 uuid_msgs/UniqueID world_id
 
 ---
