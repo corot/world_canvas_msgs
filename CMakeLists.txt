@@ -22,6 +22,7 @@ add_service_files(
   RenameMap.srv
   SaveMap.srv
   GetAnnotations.srv
+  GetAnnotationsData.srv
   LoadAnnotationsData.srv
   SaveAnnotationsData.srv
 )
