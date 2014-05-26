@@ -23,6 +23,7 @@ add_service_files(
   SaveMap.srv
   GetAnnotations.srv
   GetAnnotationsData.srv
+  PubAnnotationsData.srv
   LoadAnnotationsData.srv
   SaveAnnotationsData.srv
 )
