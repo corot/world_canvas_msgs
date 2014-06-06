@@ -28,6 +28,8 @@ add_service_files(
   SaveAnnotationsData.srv
   SetKeyword.srv
   SetRelationship.srv
+  YAMLImport.srv
+  YAMLExport.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs uuid_msgs geometry_msgs)
