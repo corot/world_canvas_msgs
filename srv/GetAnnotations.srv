@@ -2,6 +2,7 @@
 # The only one mandatory is world_id; empty arrays are ignored
 uuid_msgs/UniqueID world_id
 uuid_msgs/UniqueID[] ids  # Retrieved annotation uuid is within this list
+string[] names            # Retrieved annotation name is within this list
 string[] types            # Retrieved annotation type is within this list
 string[] keywords         # Retrieved annotation has AT LEAST one of these keywords
 string[] filter_by_some_other_constraint1   # TBD; ignored
