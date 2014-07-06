@@ -4,12 +4,8 @@ uuid_msgs/UniqueID world_id
 uuid_msgs/UniqueID[] ids  # Retrieved annotation uuid is within this list
 string[] names            # Retrieved annotation name is within this list
 string[] types            # Retrieved annotation type is within this list
-string[] keywords         # Retrieved annotation has AT LEAST one of these keywords
-string[] filter_by_some_other_constraint1   # TBD; ignored
-string[] filter_by_some_other_constraint2   # TBD; ignored
-string[] filter_by_some_other_constraint3   # TBD; ignored
-
-uuid_msgs/UniqueID[] relationships   # TBD: need more thinking on this; ignored by now
+string[] keywords         # Retrieved annotation has at least one of these keywords
+uuid_msgs/UniqueID[] relationships # Retrieve annotations related to those on this list
 
 ----
 
