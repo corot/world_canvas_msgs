@@ -27,6 +27,7 @@ add_service_files(
   SaveAnnotationsData.srv
   SetKeyword.srv
   SetRelationship.srv
+  ResetDatabase.srv
   YAMLImport.srv
   YAMLExport.srv
 )
