@@ -1,10 +1,4 @@
-# Request deleting annotations associated to the map identified by map_uuid.
+# Service used to delete a given map
 
-# Unique ID of the associated map.
-string map_uuid
+string map_id
 ---
-# Whether annotations were found on database for map_uuid
-bool found
-
-# What went wrong, if anything
-string error_msg

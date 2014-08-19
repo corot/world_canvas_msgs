@@ -1,7 +1,5 @@
-# Request renaming the associated map identified by map_uuid.
+# Service used to rename a given map.
 
-# Unique ID of the associated map.
-string map_uuid
-
+string map_id
 string new_name
 ---

@@ -1,10 +1,4 @@
-# Request publishing annotations associated to the map identified by map_uuid.
+# Service used to publish a given map from the database to the /map topic.
 
-# Unique ID of the associated map.
-string map_uuid
+string map_id
 ---
-# Whether annotations were found on database for map_uuid
-bool found
-
-# What went wrong, if anything
-string error_msg
