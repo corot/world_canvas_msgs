@@ -1,3 +1,0 @@
-# Annotations list
-
-Annotation[] annotations

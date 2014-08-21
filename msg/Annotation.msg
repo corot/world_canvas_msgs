@@ -2,7 +2,7 @@
 # An annotation can be used to introspect, visualize or key into database filters/searches without
 # having to touch the described object directly
 #  - timestamp : Creation/last update time
-#  - world_id  : World the object belongs to
+#  - world     : World the object belongs to
 #  - id        : Annotation unique id
 #  - data_id   : Referenced object unique id (an object can be reference by 1 or more annotations)
 #  - name      : Referenced object name
@@ -16,9 +16,9 @@
 
 # General properties
 time timestamp
-uuid_msgs/UniqueID world_id
 uuid_msgs/UniqueID id
 uuid_msgs/UniqueID data_id
+string world
 string name
 string type
 

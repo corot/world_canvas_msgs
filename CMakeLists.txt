@@ -9,7 +9,7 @@ add_message_files(
   Annotation.msg
   Annotations.msg
   AnnotationData.msg
-  SemanticMap.msg
+  WorldCanvas.msg
   MapListEntry.msg
 )
 
