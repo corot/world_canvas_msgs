@@ -24,6 +24,7 @@ add_service_files(
   GetAnnotations.srv
   GetAnnotationsData.srv
   PubAnnotationsData.srv
+  EditAnnotationsData.srv
   SaveAnnotationsData.srv
   SetKeyword.srv
   SetRelationship.srv
