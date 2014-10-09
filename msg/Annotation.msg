@@ -7,7 +7,7 @@
 #  - data_id   : Referenced object unique id (an object can be reference by 1 or more annotations)
 #  - name      : Referenced object name
 #  - type      : Referenced object type (a message type, as world canvas objects are ROS messages)
-#  - shape     : One of 1 (CUBE), 2 (SPHERE), 3 (CYLINDER), 9 (POINT)
+#  - shape     : One of 1 (CUBE), 2 (SPHERE), 3 (CYLINDER), 9 (TEXT)
 #  - color     : R, G, B, A (optional)
 #  - size      : X, Y, Z (optional)
 #  - keywords  : Generic properties of this object: allows basic filtering without introspecting
