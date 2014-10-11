@@ -26,6 +26,7 @@ add_service_files(
   PubAnnotationsData.srv
   EditAnnotationsData.srv
   SaveAnnotationsData.srv
+  ListWorlds.srv
   SetKeyword.srv
   SetRelationship.srv
   ResetDatabase.srv
